@@ -5,9 +5,9 @@ export default defineConfig({
   title: "鑫宇的博客",
   description: "技术思考与学习笔记",
   lang: 'zh-CN',
-  base: '/',
+  base: '/pages-blog/',
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }]
+    ['link', { rel: 'icon', href: '/pages-blog/favicon.ico' }]
   ],
 
   themeConfig: {
