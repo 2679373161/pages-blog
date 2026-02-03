@@ -1,15 +1,41 @@
 ---
 title: 博客文章
-layout: page
 ---
 
 # 📚 所有文章
 
 欢迎来到我的博客！这里记录了我在技术学习和实践中的思考与总结。
 
-<TagCloud title="🏷️ 标签云" />
+## 🏷️ 标签云
 
-<PostList />
+<div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin: 2rem 0;">
+  <a href="#vitepress" style="padding: 0.5rem 1rem; border-radius: 999px; background: var(--vp-c-bg-soft); text-decoration: none; color: var(--vp-c-text-1); transition: all 0.3s;">
+    VitePress <span style="opacity: 0.7; font-size: 0.875em;">(1)</span>
+  </a>
+  <a href="#github-pages" style="padding: 0.5rem 1rem; border-radius: 999px; background: var(--vp-c-bg-soft); text-decoration: none; color: var(--vp-c-text-1); transition: all 0.3s;">
+    GitHub Pages <span style="opacity: 0.7; font-size: 0.875em;">(1)</span>
+  </a>
+  <a href="#cicd" style="padding: 0.5rem 1rem; border-radius: 999px; background: var(--vp-c-bg-soft); text-decoration: none; color: var(--vp-c-text-1); transition: all 0.3s;">
+    CI/CD <span style="opacity: 0.7; font-size: 0.875em;">(1)</span>
+  </a>
+</div>
+
+## 📝 最新文章
+
+### [从零搭建 VitePress + GitHub Pages 博客](./build-vitepress-blog.md)
+<div style="color: var(--vp-c-text-2); font-size: 0.875rem; margin: 0.5rem 0;">
+  发布于 2026年2月3日 • 教程
+</div>
+
+详细记录了从零开始搭建 VitePress 博客的完整过程，包括项目初始化、GitHub Actions 自动部署配置，以及搭建过程中遇到的 4 个关键问题和解决方案。
+
+<div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1rem 0;">
+  <span style="padding: 0.25rem 0.75rem; border-radius: 999px; background: var(--vp-c-bg-mute); font-size: 0.875rem; color: var(--vp-c-text-2);">VitePress</span>
+  <span style="padding: 0.25rem 0.75rem; border-radius: 999px; background: var(--vp-c-bg-mute); font-size: 0.875rem; color: var(--vp-c-text-2);">GitHub Pages</span>
+  <span style="padding: 0.25rem 0.75rem; border-radius: 999px; background: var(--vp-c-bg-mute); font-size: 0.875rem; color: var(--vp-c-text-2);">CI/CD</span>
+</div>
+
+[阅读全文 →](./build-vitepress-blog.md)
 
 ---
 
@@ -36,17 +62,12 @@ category: 教程
 这里是你的文章正文...
 ```
 
-### 自动分类
+### 文章属性说明
 
-- **category**：文章分类（如：教程、随笔、项目）
-- **tags**：文章标签（可多个）
-- **date**：发布日期（可选，默认为文件创建时间）
-
-系统会自动：
-- ✅ 按分类生成侧边栏
-- ✅ 生成标签云
-- ✅ 按日期排序文章
-- ✅ 渲染文章卡片
+- **title**：文章标题
+- **date**：发布日期
+- **tags**：文章标签（数组）
+- **category**：文章分类
 
 ## 订阅更新
 

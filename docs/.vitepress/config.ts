@@ -20,12 +20,9 @@ export default defineConfig({
     sidebar: {
       '/posts/': [
         {
-          text: '📋 文章列表',
-          link: '/posts/'
-        },
-        {
-          text: '教程',
+          text: '文章',
           items: [
+            { text: '文章列表', link: '/posts/' },
             { text: '从零搭建 VitePress 博客', link: '/posts/build-vitepress-blog.md' }
           ]
         }
