@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.vuejs.org/config/app-configs
 export default defineConfig({
-  title: "鑫宇的博客",
+  title: "浮灵的博客",
   description: "技术思考与学习笔记",
   lang: 'zh-CN',
   base: '/pages-blog/',
@@ -32,7 +32,7 @@ export default defineConfig({
 
     footer: {
       message: '基于 VitePress 构建',
-      copyright: 'Copyright © 2024-present 鑫宇'
+      copyright: 'Copyright © 2024-present 浮灵'
     }
   }
 })

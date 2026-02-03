@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: "鑫宇的博客"
+  name: "浮灵的博客"
   text: "技术思考 · 学习笔记 · 随笔"
   tagline: 记录成长，分享知识
   actions:
