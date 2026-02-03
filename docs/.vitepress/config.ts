@@ -13,18 +13,21 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
+      { text: '博客', link: '/posts/', },
       { text: '关于', link: '/about.md' }
     ],
 
-    sidebar: [
-      {
-        text: '文章',
-        items: [
-          { text: '首页', link: '/' },
-          { text: '关于我', link: '/about.md' }
-        ]
-      }
-    ],
+    sidebar: {
+      '/posts/': [
+        {
+          text: '所有文章',
+          items: [
+            { text: '文章列表', link: '/posts/' },
+            { text: '从零搭建 VitePress 博客', link: '/posts/build-vitepress-blog.md' }
+          ]
+        }
+      ]
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/2679373161' }
