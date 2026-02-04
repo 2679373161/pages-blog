@@ -7,7 +7,7 @@ export default defineConfig({
   lang: 'zh-CN',
   base: '/pages-blog/',
   head: [
-    ['link', { rel: 'icon', href: '/pages-blog/favicon.ico' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: 'data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><text y=\".9em\" font-size=\"90\">📖</text></svg>' }],
     ['script', { src: 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js' }],
     ['script', {}, `
       window.addEventListener('DOMContentLoaded', function() {
