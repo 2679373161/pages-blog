@@ -10,6 +10,10 @@ export default defineConfig({
     ['link', { rel: 'icon', href: '/pages-blog/favicon.ico' }]
   ],
 
+  markdown: {
+    mermaid: true
+  },
+
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
