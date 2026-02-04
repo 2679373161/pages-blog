@@ -285,12 +285,3 @@ function onStreamChunk(chunk) {
 加 Buffer、加容错、加超时保护，基本上就能覆盖 99% 的情况了。剩下的 1%，那就是模型真的抽风了，你也没办法。
 
 祝你的 LLM 应用永远不崩 🎉
-
-<script>
-if (typeof window !== 'undefined' && window.mermaid) {
-  window.mermaid.initialize({
-    startOnLoad: true,
-    theme: 'default'
-  })
-}
-</script>

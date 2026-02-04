@@ -8,7 +8,8 @@ export default defineConfig({
   base: '/pages-blog/',
   head: [
     ['link', { rel: 'icon', href: '/pages-blog/favicon.ico' }],
-    ['script', { src: 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js' }]
+    ['script', { src: 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js' }],
+    ['script', { src: '/pages-blog/mermaid.js' }]
   ],
 
   themeConfig: {
