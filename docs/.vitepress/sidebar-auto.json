@@ -1,0 +1,31 @@
+{
+  "/posts/": [
+    {
+      "text": "文章",
+      "items": [
+        {
+          "text": "文章列表",
+          "link": "/posts/"
+        },
+        {
+          "text": "工程实践 (1)",
+          "items": [
+            {
+              "text": "LLM 流式输出的增量解析实战",
+              "link": "/posts/llm-streaming-parsing.md"
+            }
+          ]
+        },
+        {
+          "text": "教程 (1)",
+          "items": [
+            {
+              "text": "从零搭建 VitePress + GitHub Pages 博客",
+              "link": "/posts/build-vitepress-blog.md"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
