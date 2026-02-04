@@ -7,12 +7,9 @@ export default defineConfig({
   lang: 'zh-CN',
   base: '/pages-blog/',
   head: [
-    ['link', { rel: 'icon', href: '/pages-blog/favicon.ico' }]
+    ['link', { rel: 'icon', href: '/pages-blog/favicon.ico' }],
+    ['script', { src: 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js' }]
   ],
-
-  markdown: {
-    mermaid: true
-  },
 
   themeConfig: {
     nav: [
