@@ -8,6 +8,15 @@
           "link": "/posts/"
         },
         {
+          "text": "量化实战系列 (1)",
+          "items": [
+            {
+              "text": "用 LLM 搭建量化问答助手（一）：从 0 到 1 的踩坑记录",
+              "link": "/posts/ai-quant-assistant-01.md"
+            }
+          ]
+        },
+        {
           "text": "工程实践 (1)",
           "items": [
             {
